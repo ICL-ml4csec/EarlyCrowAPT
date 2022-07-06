@@ -31,8 +31,8 @@ contextualization and reclassify again.
 
 <br />
 <div align="center">
-  <a href="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/tree/EarlyCrow/figures/">
-    <img src="EarlyCrow_arch.png"  width="1039" height="350">
+  <a href="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/">
+    <img src="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/tree/EarlyCrow/figures/EarlyCrow_arch.png"  width="1039" height="350">
   </a>
 
   </p>
