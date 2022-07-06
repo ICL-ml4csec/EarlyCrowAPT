@@ -29,7 +29,14 @@ same workflow. A further step is required when the new PairFlow matches one of t
 The ContextualSummary updating process is responsible for updating the matched ContextualSummary to maintain the
 contextualization and reclassify again. 
 
+<br />
+<div align="center">
+  <a href="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/tree/EarlyCrow/figures/">
+    <img src="EarlyCrow_arch.png"  width="1039" height="350">
+  </a>
 
+  </p>
+</div>
 
 
 
