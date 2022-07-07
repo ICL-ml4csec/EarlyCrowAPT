@@ -1,7 +1,7 @@
 <br />
 <div align="center">
   <a href="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/">
-    <img src="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/EarlyCrow_logo.png" class="center"  width="800" height="170">
+    <img src="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/raw/EarlyCrow_logo.png" class="center"  width="800" height="170">
   </a>
 
   </p>
