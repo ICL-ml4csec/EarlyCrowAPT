@@ -1,7 +1,5 @@
-<p><strong><span style="color: #ff0000;"><em>Note: We are in the process of updating the repository, and it will be ready on 15 July 2022.
-The data and codes can still be checked, but please come back later.</em></span></strong></p>
-
-
+**Note: We are in the process of updating the repository, and it will be ready on 15 July 2022.
+The data and codes can still be checked, but please come back later.** 
 
 
 
@@ -54,7 +52,7 @@ contextualization and reclassify again.
 <br />
 <div align="center">
   <a href="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/tree/EarlyCrow/">
-    <img src="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/raw/EarlyCrow/figures/EarlyCrow_arch.png" class="center"  width="1039" height="350">
+    <img src="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/raw/EarlyCrow/figures/EarlyCrow_arch.png" class="center"  width="1039" height="450">
   </a>
 
   </p>
@@ -82,12 +80,12 @@ to detect APTs at the early stage, all measurements are observed during the firs
 
 
 
-### Results: 
+## Results: 
 Classifiers are evaluated in two modes. First, HTTP-Mode, which assumes the administrator connects the NIDS to a web proxy to
 decrypt HTTPS and accesses features such as UA, HTTP response codes, content type, and URL. Second, HTTPS-Mode, where the
 administrator places the NIDS at the network edge, without deciphering HTTPS. 
 
-* Classification Performance on Known Malware.
+#### Classification Performance on Known Malware.
 
 We randomly split the training and testing sets ten times. Then, we take the average performance under two
 constraints. First, the malware should be presented in both sets. Second, the infected hosts and the destination C&C server should be
@@ -97,7 +95,7 @@ unique and not leaked from training to testing.
   python experiments/classification_performance_known_malware.py
   ```
 
-* Classification Performance on Unseen Malware
+#### Classification Performance on Unseen Malware
 
 We train our classifiers on the training set used for our measurement study. Then we evaluate the performance
 against unseen malware.
@@ -106,7 +104,7 @@ against unseen malware.
   python experiments/classification_performance_unseen_malware.py
   ```
 
-* Features Diversity
+#### Features Diversity
 
 The detection APTs necessitates a spread of features, as presented in Section 2. In Figure 4, we show the
 extent to which additional features affect the performance of the various classifiers.
@@ -124,7 +122,7 @@ extent to which additional features affect the performance of the various classi
 
 <br />
 
-* Top Features Distribution
+#### Top Features Distribution
 
 We investigate feature importance on the third dataset in HTTPS mode, which comprises APTs, botnets, and legitimate
 samples because it is the one closest to a realistic scenario for APT hunting.
