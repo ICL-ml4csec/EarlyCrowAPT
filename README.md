@@ -66,7 +66,7 @@ Before running any files, please make sure to install prerequests packages
 <br />
 <div align="center">
   <a href="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/">
-    <img src="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/raw/experiments/figures/Measurement.png"  width="1700" height="600">
+    <img src="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/raw/experiments/figures/Measurement.png"  width="850" height="300">
   </a>
 
   </p>
@@ -99,7 +99,7 @@ Before running any files, please make sure to install prerequests packages
 <br />
 <div align="center">
   <a href="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/">
-    <img src="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/raw/experiments/figures/features_diversity.png"  width="800" height="500">
+    <img src="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/raw/experiments/figures/features_diversity.png"  width="400" height="250">
   </a>
 
   </p>
@@ -113,7 +113,7 @@ Before running any files, please make sure to install prerequests packages
 <br />
 <div align="center">
   <a href="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/">
-    <img src="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/raw/experiments/figures/top_features_distribution.png"  width="1800" height="250">
+    <img src="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/raw/experiments/figures/top_features_distribution.png"  width="900" height="125">
   </a>
 
   </p>
