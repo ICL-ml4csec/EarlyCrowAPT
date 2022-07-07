@@ -66,11 +66,12 @@ Before running any files, please make sure to install prerequests packages
 <br />
 <div align="center">
   <a href="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/">
-    <img src="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/raw/EarlyCrow/experiments/figures/features_diversity.png"  width="1700" height="600">
+    <img src="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/raw/experiments/figures/Measurement.png"  width="1700" height="600">
   </a>
 
   </p>
 </div>
+
 ### Compile EarlyCrow
 1- 
   ```sh
@@ -98,7 +99,7 @@ Before running any files, please make sure to install prerequests packages
 <br />
 <div align="center">
   <a href="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/">
-    <img src="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/raw/EarlyCrow/experiments/figures/features_diversity.png"  width="800" height="500">
+    <img src="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/raw/experiments/figures/features_diversity.png"  width="800" height="500">
   </a>
 
   </p>
@@ -112,7 +113,7 @@ Before running any files, please make sure to install prerequests packages
 <br />
 <div align="center">
   <a href="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/">
-    <img src="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/raw/EarlyCrow/experiments/figures/top_features_distribution.png"  width="1800" height="250">
+    <img src="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/raw/experiments/figures/top_features_distribution.png"  width="1800" height="250">
   </a>
 
   </p>
