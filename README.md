@@ -65,7 +65,7 @@ Before running any files, please make sure to install prerequests packages
   ```
 <br />
 <div align="center">
-  <a href="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/">
+  <a href="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/blob/experiments/measurements_study.py">
     <img src="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/raw/experiments/figures/Measurement.png"  width="850" height="300">
   </a>
 
@@ -77,8 +77,6 @@ Before running any files, please make sure to install prerequests packages
   ```sh
   python EarlyCrow/dataflow.py
   ```
-
-
 
 
 ### Results: 
@@ -98,13 +96,15 @@ Before running any files, please make sure to install prerequests packages
   ```
 <br />
 <div align="center">
-  <a href="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/">
+  <a href="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/blob/experiments/unseen_malware_features_diversity.py">
     <img src="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/raw/experiments/figures/features_diversity.png"  width="400" height="250">
   </a>
 
   </p>
 </div>
+
 4- Top Features Distribution
+
   ```sh
   python experiments/unseen_malware_top_features_distrbution.py
   ```
@@ -112,10 +112,9 @@ Before running any files, please make sure to install prerequests packages
 
 <br />
 <div align="center">
-  <a href="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/">
+  <a href="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/blob/experiments/unseen_malware_top_features_distribution.py">
     <img src="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/raw/experiments/figures/top_features_distribution.png"  width="900" height="125">
   </a>
 
   </p>
 </div>
-
