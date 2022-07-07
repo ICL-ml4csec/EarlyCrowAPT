@@ -1,7 +1,8 @@
 <br />
+
 <div align="center">
   <a href="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/">
-    <img src="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/raw/EarlyCrow_logo.png" class="center"  width="700" height="148.75">
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/raw/EarlyCrow_logo.png" class="center"  width="700" height="148.75">
   </a>
 
   </p>
@@ -123,7 +124,7 @@ extent to which additional features affect the performance of the various classi
 <br />
 <div align="center">
   <a href="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/blob/experiments/unseen_malware_features_diversity.py">
-    <img src="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/raw/experiments/figures/features_diversity.png" class="center" width="400" height="250">
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/raw/experiments/figures/features_diversity.png" class="center" width="400" height="250">
   </a>
 
   </p>
