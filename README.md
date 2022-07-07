@@ -63,7 +63,14 @@ Before running any files, please make sure to install prerequests packages
   ```sh
   python experiments/measurements_study.py
   ```
+<br />
+<div align="center">
+  <a href="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/">
+    <img src="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/raw/EarlyCrow/experiments/figures/features_diversity.png"  width="1700" height="600">
+  </a>
 
+  </p>
+</div>
 ### Compile EarlyCrow
 1- 
   ```sh
@@ -88,12 +95,26 @@ Before running any files, please make sure to install prerequests packages
   ```sh
   python experiments/unseen_malware_features_diversity.py
   ```
+<br />
+<div align="center">
+  <a href="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/">
+    <img src="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/raw/EarlyCrow/experiments/figures/features_diversity.png"  width="800" height="500">
+  </a>
 
+  </p>
+</div>
 4- Top Features Distribution
   ```sh
   python experiments/unseen_malware_top_features_distrbution.py
   ```
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+<br />
+<div align="center">
+  <a href="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/">
+    <img src="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/raw/EarlyCrow/experiments/figures/top_features_distribution.png"  width="1800" height="250">
+  </a>
 
+  </p>
+</div>
 
