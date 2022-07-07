@@ -102,17 +102,6 @@ Before running any files, please make sure to install prerequests packages
 
   </p>
 </div>
-<br />
-<style>
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-</style>
-
-<img src="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/raw/experiments/figures/features_diversity.png" alt="Paris" width="400" height="250" style="width:10%;">
-
 
 
 4- Top Features Distribution
