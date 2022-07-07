@@ -32,7 +32,7 @@ contextualization and reclassify again.
 <br />
 <div align="center">
   <a href="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/">
-    <img src="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/raw/EarlyCrow/figures/EarlyCrow_arch.png"  width="1039" height="350">
+    <img src="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/raw/EarlyCrow/figures/EarlyCrow_arch.png" class="center"  width="1039" height="350">
   </a>
 
   </p>
@@ -66,7 +66,7 @@ Before running any files, please make sure to install prerequests packages
 <br />
 <div align="center">
   <a href="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/blob/experiments/measurements_study.py">
-    <img src="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/raw/experiments/figures/Measurement.png"  width="850" height="300">
+    <img src="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/raw/experiments/figures/Measurement.png" class="center"  width="850" height="300">
   </a>
 
   </p>
@@ -97,7 +97,7 @@ Before running any files, please make sure to install prerequests packages
 <br />
 <div align="center">
   <a href="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/blob/experiments/unseen_malware_features_diversity.py">
-    <img src="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/raw/experiments/figures/features_diversity.png"  width="400" height="250">
+    <img src="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/raw/experiments/figures/features_diversity.png" class="center" width="400" height="250">
   </a>
 
   </p>
@@ -113,7 +113,7 @@ Before running any files, please make sure to install prerequests packages
 <br />
 <div align="center">
   <a href="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/blob/experiments/unseen_malware_top_features_distribution.py">
-    <img src="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/raw/experiments/figures/top_features_distribution.png"  width="900" height="125">
+    <img src="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/raw/experiments/figures/top_features_distribution.png" class="center" width="900" height="125">
   </a>
 
   </p>
