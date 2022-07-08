@@ -1,5 +1,5 @@
 # __init__.py
-from .pairflow import pf_generator
+from .pairflow_dataflow import pairflow_features
 
 
 

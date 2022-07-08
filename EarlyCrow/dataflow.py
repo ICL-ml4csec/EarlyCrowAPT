@@ -1,7 +1,7 @@
 import warnings
 warnings.filterwarnings("ignore")
 import pandas as pd
-from EarlyCrow.pairflowFeatures import pairflow_dataflow as pf_features
+from EarlyCrow.PairFlow import pairflow_dataflow as pf_features
 from EarlyCrow.profiles import urlProfile as up_features
 from EarlyCrow.profiles import hostProfile as hp_features
 from EarlyCrow.profiles import destProfile as dp_features
