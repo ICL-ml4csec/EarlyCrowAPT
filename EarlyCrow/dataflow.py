@@ -7,13 +7,16 @@ from EarlyCrow.profiles import hostProfile as hp_features
 from EarlyCrow.profiles import destProfile as dp_features
 from EarlyCrow.CSUpdatingProcess import CSU_dataflow as update
 
-PATH="data/pairflows/PairFlow_http.csv"
-FILENAME="PairFlow_http"
+PATH="data/pairflows/"
+FILENAME="PairFlow_http.csv"
 
-pairflow_df = pd.read_csv(PATH+FILENAME, converters={'packet_datapoint': eval,'control_plane': eval,
-                                                  'udp_plane': eval,'data_plane': eval,
-                                         'url_cf_list': eval,'User_Agent': eval,
-                                         'fqdn_lists': eval})
+try:
+    pairflow_df = pd.read_csv(PATH+FILENAME, converters={'packet_datapoint': eval,'control_plane': eval,
+                                                      'udp_plane': eval,'data_plane': eval,
+                                             'url_cf_list': eval,'User_Agent': eval,
+                                             'fqdn_lists': eval})
+except:
+    print("Data is not available. \nPlease follow the instruction on README.md, then store the dataset in {} ".format(PATH))
 
 
 ContextualSummary=pf_features.pairflow_features(pairflow_df)

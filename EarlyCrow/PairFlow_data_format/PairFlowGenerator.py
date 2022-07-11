@@ -15,7 +15,6 @@ FILESET=['njRAT1', 'zebrocy2', 'Remcos1', 'Mivast&Sakula1', 'bitsadmin',
        'cobaltstrike1', 'cobaltstrike2', 'empire1', 'empire5', 'empire6',
        'empire7']
 
-FILESET=[ 'njRAT1']
 
 FILEWITHLABEL= "_labelled"
 CSV = ".csv"

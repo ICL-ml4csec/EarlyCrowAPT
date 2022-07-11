@@ -3,7 +3,7 @@ warnings.filterwarnings("ignore")
 import pandas as pd
 import math
 import EarlyCrow.preprocessing.flags as prep
-import EarlyCrow.PairFlow.modules as pf
+import EarlyCrow.PairFlow_data_format.modules as pf
 def pf_generator(_df,GRANULARITY):
     MAXIMUM_CAPTURE = 900
     _df=_df.fillna({'Info': '',

@@ -69,9 +69,25 @@ contextualization and reclassify again.
 </div>
 
 
+## Data Preparetion
+***Note: If you are interested to run the experiments, please skip this section. We have already publish the training and test set to be used for all experiemnts in the following section.***
+
+### PairFlow
+You need first to use our proposed data format in our paper which is called <a href="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/tree/EarlyCrow/PairFlow_data_format/">PairFlow</a> . Please <a href="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/tree/EarlyCrow/PairFlow_data_format/">click here</a> and follow the instructions. 
+
+### Feature Extraction
+After the PairFlow is prepared and stored in ```data/pairflows/``` , run the following command to generate ContextualSummaries which include all the rest of processes including pivoting, PairFlow and Profile features generation and Continual Updating Process 
+
+``` python EarlyCrow/dataflow.py```
+
+Now the data is ready to be used for the experiemnts. You may run the following command to evaluate EarlyCrow on Known malware (First experiemnt on the paper).
+```python experiments/classification_performance_known_malware.py```
+
+Note: make sure to update the PATH and FILENAME in file ```classification_performance_known_malware.py``` to match your own generated data. 
 
 
 
+## Experiements
 ### Measurement Study: 
 We provide several measurements taken on the training set summarized in Table 1 and described in Section 4. Since our scope is
 to detect APTs at the early stage, all measurements are observed during the first 15 minutes of each connection.
