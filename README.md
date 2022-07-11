@@ -72,7 +72,7 @@ contextualization and reclassify again.
 
 
 ## Data Preparetion
-***Note: If you are interested to run the experiments, please skip this section. We have already publish the training and test set to be used for all experiemnts in the following section.***
+***Note: If you are interested to run the experiments directly, please skip this section. We have already publish the training and test set to be used for all experiemnts in the following section.***
 
 ### PairFlow
 You need first to use our proposed data format in our paper which is called <a href="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/tree/EarlyCrow/PairFlow_data_format/">PairFlow</a> . Please <a href="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/tree/EarlyCrow/PairFlow_data_format/">click here</a> and follow the instructions. 
