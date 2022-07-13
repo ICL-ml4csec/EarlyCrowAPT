@@ -41,7 +41,7 @@ F1-score of 93.02% with FPR of 0.74%.
    
 * Prerequests
 
-Before running any files, please make sure to install prerequests packages
+Before running any files, please make sure to install prerequisites packages
   ```sh
   pip install -r requirements.txt
   ```
@@ -72,20 +72,20 @@ contextualization and reclassify again.
 
 
 ## Data Preparetion
-**Note: If you are interested to run the experiments directly, please skip this section. We have already publish the training and test set to be used for all experiemnts in the following section.**
+**Note: If you are interested in running the experiments directly, please skip this section. We have already published the training and test set to be used for all experiments in the following section.**
 
 ### PairFlow
 You need first to use our proposed data format in our paper which is called <a href="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/tree/EarlyCrow/PairFlow_data_format/">PairFlow</a> . Please <a href="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/tree/EarlyCrow/PairFlow_data_format/">click here</a> and follow the instructions. 
 
 ### Feature Extraction
-After the PairFlow is prepared and stored in ```data/pairflows/``` , run the following command to generate ContextualSummaries which include all the rest of processes including pivoting, PairFlow and Profile features generation and Continual Updating Process 
+After the PairFlow is prepared and stored in ```data/pairflows/``` , the next step is to generate ContextualSummaries. Please run the following command, which includes pivoting, PairFlow and Profile feature generation, and Continual Updating process.
 
 ``` python EarlyCrow/dataflow.py```
 
-Now the data is ready to be used for the experiemnts. You may run the following command to evaluate EarlyCrow on Known malware (First experiemnt on the paper).
+Now the data is ready to be used for the experiments. You may run the following command to evaluate EarlyCrow on Known malware (The first experiment on the paper).
 ```python experiments/classification_performance_known_malware.py```
 
-Note: make sure to update the PATH and FILENAME in file ```classification_performance_known_malware.py``` to match your own generated data. 
+Note: make sure to update the PATH and FILENAME in the file ```classification_performance_known_malware.py``` to match your own generated data. 
 
 
 

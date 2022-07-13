@@ -80,7 +80,7 @@ def pf_generator(_df,GRANULARITY):
 
         for i in range(len(conn_pairs_unique_df)):
 
-            print("Overall progress {}%. Working on PairFlow # {} ".format(i,round(i/len(conn_pairs_unique_df)*100),1), end='\r')
+            print("Overall progress {}%. Working on PairFlow # {} ".format(round(i/len(conn_pairs_unique_df)*100,1),i, end='\r'))
             flow_biPkts=df[((df.Source==conn_pairs_unique_df.loc[i,'Source']) &
                (df.Destination==conn_pairs_unique_df.loc[i,'Destination']) )|
                ((df.Destination==conn_pairs_unique_df.loc[i,'Source']) &
