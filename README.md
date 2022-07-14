@@ -41,11 +41,16 @@ F1-score of 93.02% with FPR of 0.74%.
    
 * Prerequests
 
-Before running any files, please make sure to install prerequisites packages
+1- Before running any files, please make sure to install prerequisites packages
   ```sh
   pip install -r requirements.txt
   ```
 
+2- It is required that PYTHONPATH be set up so that all EarlyCrow modules are available for use during the below commands 
+
+```sh
+export PYTHONPATH=/home/[PC_NAME]/EarlyCrowAPT/
+```
 ### Architecture
 EarlyCrow is composed of four main processes, as depicted in Figure 3. First, it starts with buffering and dispatching using Pair-
 Flow, which summarizes a PCAP into contextually relevant fields including packet behavior, domain and URL list, User-Agent, status

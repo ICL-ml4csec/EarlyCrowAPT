@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib import gridspec
-PATH = "data/contextual_summaries/"
+PATH = "./data/contextual_summaries/"
 FILE_Train='training.csv'
 df_train=pd.read_csv(PATH+FILE_Train)
 df_cdf = pd.DataFrame(columns=['Feature','Label','X','Y'])
