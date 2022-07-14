@@ -36,7 +36,7 @@ F1-score of 93.02% with FPR of 0.74%.
 
 
    ```sh
-   git clone pip install https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT.git
+   git clone https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT.git
    ```
    
 * Prerequests
