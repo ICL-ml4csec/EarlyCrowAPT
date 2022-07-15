@@ -8,10 +8,9 @@
   </p>
 </div>
 
-**Note: We are in the process of updating the repository, and it will be ready on 15 July 2022.
-The data and codes can still be checked, but please come back later.** 
 
-<i>Last Update: Mon, 11 Jul 2022 </i>
+
+<i>Last Update: Friday, 15 Jul 2022 </i>
 
 
 
@@ -77,10 +76,14 @@ contextualization and reclassify again.
 
 
 ## Data Preparetion
-**Note: If you are interested in running the experiments directly, please skip this section. We have already published the training and test set to be used for all experiments in the following section.**
+If you are interested in running the experiments directly, you can **skip** this section. 
+We have already attached the training and test set in our repository to be used for the Experiment section, so you do not need to download data from our Google Drive. 
+Google Drive includes all <a href="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/tree/data/">Datasets</a> for each step. 
+However, this section is to regenerate (replicate) datasets based on our PCAP files or anyone interested in using EarlyCrow.
 
 ### PairFlow
-You need first to use our proposed data format in our paper which is called <a href="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/tree/EarlyCrow/PairFlow_data_format/">PairFlow</a> . Please <a href="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/tree/EarlyCrow/PairFlow_data_format/">click here</a> and follow the instructions. 
+You need first to use our proposed data format in our paper which is called <a href="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/tree/EarlyCrow/PairFlow_data_format/">PairFlow</a> . 
+Please <a href="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/tree/EarlyCrow/PairFlow_data_format/">click here</a> and follow the instructions. 
 
 ### Feature Extraction
 After the PairFlow is prepared and stored in ```data/pairflows/``` , the next step is to generate ContextualSummaries. Please run the following command, which includes pivoting, PairFlow and Profile feature generation, and Continual Updating process.

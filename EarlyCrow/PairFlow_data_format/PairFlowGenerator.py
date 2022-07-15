@@ -2,7 +2,7 @@ import warnings
 warnings.filterwarnings("ignore")
 import pandas as pd
 import EarlyCrow.PairFlow as pf
-PATH= "data/pcap/csv/"
+PATH= "./data/pcap/csv/"
 
 
 ## You may add all files here, here a sample of our data.
