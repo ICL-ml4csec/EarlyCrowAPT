@@ -37,7 +37,7 @@ EarlyCrow. The details for each component of PairFlow can be found in Appendix A
 
 3- Generate all possible files variants
 
-``` python EarlyCrow/PairFlow_data_format/file_variants.py ```
+``` python EarlyCrow/PairFlow_data_format/variants_extractions.py ```
 
 
 

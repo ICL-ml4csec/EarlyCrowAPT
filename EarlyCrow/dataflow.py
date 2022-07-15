@@ -7,7 +7,7 @@ from EarlyCrow.profiles import hostProfile as hp_features
 from EarlyCrow.profiles import destProfile as dp_features
 from EarlyCrow.CSUpdatingProcess import CSU_dataflow as update
 
-PATH="./data/pairflows/"
+PATH=".data/pairflows/merged_pairflow_files/"
 FILENAME="PairFlow_http.csv"
 
 try:

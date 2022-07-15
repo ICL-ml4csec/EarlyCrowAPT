@@ -51,8 +51,7 @@ F1-score of 93.02% with FPR of 0.74%.
 export PYTHONPATH=/home/[PC_NAME]/EarlyCrowAPT/
 ```
 ### Architecture
-EarlyCrow is composed of four main processes, as depicted in Figure 3. First, it starts with buffering and dispatching using Pair-
-Flow, which summarizes a PCAP into contextually relevant fields including packet behavior, domain and URL list, User-Agent, status
+EarlyCrow is composed of four main processes, as depicted in Figure 3. First, it starts with buffering and dispatching using <a href="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/tree/EarlyCrow/PairFlow_data_format/">PairFlow</a>, which summarizes a PCAP into contextually relevant fields including packet behavior, domain and URL list, User-Agent, status
 code, and content type for HTTP. After the PairFlow HTTP variant is generated, these flows are preprocessed for profile pivoting
 to generate three profiles: Host, Destination, and URL. Then, two types of feature extraction follow (PairFlow and profile features)
 to form a ContextualSummary which is then classified by a random forest. When another PairFlow is received, it will follow the
@@ -77,8 +76,8 @@ contextualization and reclassify again.
 
 ## Data Preparetion
 If you are interested in running the experiments directly, you can **skip** this section. 
-We have already attached the training and test set in our repository to be used for the Experiment section, so you do not need to download data from our Google Drive. 
-Google Drive includes all <a href="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/tree/data/">Datasets</a> for each step. 
+We have already attached the training and test set in our repository to be used for the Experiment section, so you do not need to download data from our Google Drive storage. 
+Google Drive storage includes all <a href="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/tree/data/">datasets</a> for each step. 
 However, this section is to regenerate (replicate) datasets based on our PCAP files or anyone interested in using EarlyCrow.
 
 ### PairFlow
