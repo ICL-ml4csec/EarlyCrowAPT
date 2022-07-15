@@ -29,15 +29,14 @@ EarlyCrow. The details for each component of PairFlow can be found in Appendix A
 
 ## Compile data using PairFlow
 1- Generate PairFlow for all files and store them in `\data\pairflows\`
+
 ``` python EarlyCrow/PairFlow_data_format/PairFlowGenerator.py ```
 
-2- Unify all generated PairFlows for each trace into one file
+2- Merge all generated PairFlows for each trace into one file with all possible files variants
 
-``` python EarlyCrow/PairFlow_data_format/unify_data.py ```
+``` python EarlyCrow/PairFlow_data_format/merge_pairflows.py ```
 
-3- Generate all possible files variants
 
-``` python EarlyCrow/PairFlow_data_format/variants_extractions.py ```
 
 
 
