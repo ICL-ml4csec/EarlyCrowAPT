@@ -10,8 +10,6 @@
 
 
 
-<i>Last Update: Friday, 15 Jul 2022 </i>
-
 
 
 
