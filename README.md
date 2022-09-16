@@ -148,7 +148,7 @@ extent to which additional features affect the performance of the various classi
 <br />
 <div align="center">
   <a href="https://github.com/ICL-ml4csec/EarlyCrowAPT/blob/main/experiments/unseen_malware_features_diversity.py">
-    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="https://raw.githubusercontent.com/ICL-ml4csec/EarlyCrowAPT/main/experiments/figures/features_diversity.png" class="center" width="400" height="250">
+    &emsp;&emsp;&emsp;&emsp;&emsp;<img src="https://raw.githubusercontent.com/ICL-ml4csec/EarlyCrowAPT/main/experiments/figures/features_diversity.png" class="center" width="400" height="100">
   </a>
 
   </p>

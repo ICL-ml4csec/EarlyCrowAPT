@@ -20,8 +20,8 @@ EarlyCrow. The details for each component of PairFlow can be found in Appendix A
 
 <br />
 <div align="center">
-  <a href="https://gitfront.io/r/user-8496580/rRczB6QJyHgL/EarlyCrowAPT/tree/EarlyCrow/PairFlow_data_format/">
-    <img src="https://gitfront.io/r/user-8496580/rRczB6QJyHgL/EarlyCrowAPT/raw/EarlyCrow/PairFlow_data_format/figures/PairFlow_arch.png" class="center"  width="1039" height="350">
+  <a href="https://github.com/ICL-ml4csec/EarlyCrowAPT/tree/main/EarlyCrow/PairFlow_data_format/">
+    <img src="https://github.com/ICL-ml4csec/EarlyCrowAPT/tree/main/EarlyCrow/PairFlow_data_format/figures/PairFlow_arch.png" class="center"  width="1039" height="350">
   </a>
 
   </p>

@@ -3,7 +3,7 @@ To reproduce our data and replicate experiments, we publish our data at all stag
 
 
 ### PCAP Data
-To generate PairFlow from PCAP, you need to access the raw data stored in  `data/pcap/csv/`. Then following the instruction <a href="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/tree/EarlyCrow/PairFlow_data_format/">here</a> to generate PairFlows. 
+To generate PairFlow from PCAP, you need to access the raw data stored in  `data/pcap/csv/`. Then following the instruction <a href="https://github.com/ICL-ml4csec/EarlyCrowAPT/tree/EarlyCrow/PairFlow_data_format/">here</a> to generate PairFlows. 
 
 
 ### PairFlow Data
@@ -28,7 +28,7 @@ To run all experiments, you only need to generate the ContextualSummaries of Ear
 
 ### Dataset for all experiments:
 
-You can directly use the ContextualSummaries in `/EarlyCrowAPT/data/contextual_summaries/`. Therefore, you only need to follow the instructions in the <a href="https://gitfront.io/r/user-8496580/tRoT9bsPi6hi/EarlyCrowAPT/">Main Page</a>. 
+You can directly use the ContextualSummaries in `/EarlyCrowAPT/data/contextual_summaries/`. Therefore, you only need to follow the instructions in the <a href="https://github.com/ICL-ml4csec/EarlyCrowAPT/">Main Page</a>. 
 
 
 
