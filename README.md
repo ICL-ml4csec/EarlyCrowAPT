@@ -1,16 +1,14 @@
 <br />
 
 <div align="center">
-  <a href="https://gitfront.io/r/user-8496580/rRczB6QJyHgL/EarlyCrowAPT/">
-    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="https://gitfront.io/r/user-8496580/rRczB6QJyHgL/EarlyCrowAPT/raw/EarlyCrow_logo.png" class="center"  width="700" height="148.75">
+  <a href="https://github.com/ICL-ml4csec/EarlyCrowAPT">
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="https://raw.githubusercontent.com/ICL-ml4csec/EarlyCrowAPT/main/EarlyCrow_logo.png" class="center"  width="700" height="148.75">
   </a>
 
   </p>
 </div>
 
 
-
-*Note: some technical details on PairFlow and the datasets of EarlyCrow referred to by the main paper can be found <a href="https://gitfront.io/r/user-8496580/rRczB6QJyHgL/EarlyCrowAPT/blob/EarlyCrow_ISC_Appendix_Technical_Details.pdf">here</a>*
 
 
 ## About
@@ -33,7 +31,7 @@ F1-score of 93.02% with FPR of 0.74%.
 
 
    ```sh
-   git clone https://gitfront.io/r/user-8496580/rRczB6QJyHgL/EarlyCrowAPT.git
+   git clone https://github.com/ICL-ml4csec/EarlyCrowAPT.git
    ```
    
 * Prerequisites
@@ -49,7 +47,7 @@ F1-score of 93.02% with FPR of 0.74%.
 export PYTHONPATH=/home/[PC_NAME]/EarlyCrowAPT/
 ```
 ## Architecture
-EarlyCrow is composed of four main processes, as depicted in Figure 3. First, it starts with buffering and dispatching using <a href="https://gitfront.io/r/user-8496580/rRczB6QJyHgL/EarlyCrowAPT/tree/EarlyCrow/PairFlow_data_format/">PairFlow</a>, which summarizes a PCAP into contextually relevant fields including packet behavior, domain and URL list, User-Agent, status
+EarlyCrow is composed of four main processes, as depicted in Figure 3. First, it starts with buffering and dispatching using <a href="https://github.com/ICL-ml4csec/EarlyCrowAPT/tree/main/EarlyCrow/PairFlow_data_format/">PairFlow</a>, which summarizes a PCAP into contextually relevant fields including packet behavior, domain and URL list, User-Agent, status
 code, and content type for HTTP. After the PairFlow HTTP variant is generated, these flows are preprocessed for profile pivoting
 to generate three profiles: Host, Destination, and URL. Then, two types of feature extraction follow (PairFlow and profile features)
 to form a ContextualSummary which is then classified by a random forest. When another PairFlow is received, it will follow the
@@ -64,8 +62,8 @@ contextualization and reclassify again.
 
 <br />
 <div align="center">
-  <a href="https://gitfront.io/r/user-8496580/rRczB6QJyHgL/EarlyCrowAPT/tree/EarlyCrow/">
-    <img src="https://gitfront.io/r/user-8496580/rRczB6QJyHgL/EarlyCrowAPT/raw/EarlyCrow/figures/EarlyCrow_arch.png" class="center"  width="1039" height="350">
+  <a href="https://github.com/ICL-ml4csec/EarlyCrowAPT/tree/main/EarlyCrow/">
+    <img src="https://raw.githubusercontent.com/ICL-ml4csec/EarlyCrowAPT/main/EarlyCrow/figures/EarlyCrow_arch.png" class="center"  width="1039" height="350">
   </a>
 
   </p>
@@ -76,12 +74,12 @@ contextualization and reclassify again.
 If you are interested in running the experiments directly, you can
  <a href="#experiments_section">**skip**</a> this section. 
 We have already attached the training and test set in our repository to be used for the Experiment section, so you do not need to download data from our Google Drive storage. 
-Google Drive storage includes all <a href="https://gitfront.io/r/user-8496580/rRczB6QJyHgL/EarlyCrowAPT/tree/data/">datasets</a> for each step. 
+Google Drive storage includes all <a href="https://github.com/ICL-ml4csec/EarlyCrowAPT/tree/main/data/">datasets</a> for each step. 
 However, this section is to regenerate (replicate) datasets based on our PCAP files or anyone interested in using EarlyCrow.
 
 #### PairFlow
-You need first to use our proposed data format described in our paper which is called <a href="https://gitfront.io/r/user-8496580/rRczB6QJyHgL/EarlyCrowAPT/tree/EarlyCrow/PairFlow_data_format/">PairFlow</a> . 
-Please <a href="https://gitfront.io/r/user-8496580/rRczB6QJyHgL/EarlyCrowAPT/tree/EarlyCrow/PairFlow_data_format/">click here</a> and follow the instructions. 
+You need first to use our proposed data format described in our paper which is called <a href="https://github.com/ICL-ml4csec/EarlyCrowAPT/tree/main/EarlyCrow/PairFlow_data_format/">PairFlow</a> . 
+Please <a href="https://github.com/ICL-ml4csec/EarlyCrowAPT/tree/main/EarlyCrow/PairFlow_data_format/">click here</a> and follow the instructions. 
 
 #### Feature Extraction
 After the PairFlow is prepared and stored in ```data/pairflows/``` , the next step is to generate ContextualSummaries. Please run the following command, which includes pivoting, PairFlow and Profile feature generation, and Continual Updating process.
@@ -107,8 +105,8 @@ to detect APTs at the early stage, all measurements are observed during the firs
   ```
 <br />
 <div align="center">
-  <a href="https://gitfront.io/r/user-8496580/rRczB6QJyHgL/EarlyCrowAPT/blob/experiments/measurements_study.py">
-    <img src="https://gitfront.io/r/user-8496580/rRczB6QJyHgL/EarlyCrowAPT/raw/experiments/figures/Measurement.png" class="center"  width="850" height="300">
+  <a href="https://raw.githubusercontent.com/ICL-ml4csec/EarlyCrowAPT/main//experiments/measurements_study.py">
+    <img src="https://raw.githubusercontent.com/ICL-ml4csec/EarlyCrowAPT/main/experiments/figures/Measurement.png" class="center"  width="850" height="300">
   </a>
 
   </p>
@@ -149,8 +147,8 @@ extent to which additional features affect the performance of the various classi
   ```
 <br />
 <div align="center">
-  <a href="https://gitfront.io/r/user-8496580/rRczB6QJyHgL/EarlyCrowAPT/blob/experiments/unseen_malware_features_diversity.py">
-    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="https://gitfront.io/r/user-8496580/rRczB6QJyHgL/EarlyCrowAPT/raw/experiments/figures/features_diversity.png" class="center" width="400" height="250">
+  <a href="https://github.com/ICL-ml4csec/EarlyCrowAPT/blob/main/experiments/unseen_malware_features_diversity.py">
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="https://raw.githubusercontent.com/ICL-ml4csec/EarlyCrowAPT/main/experiments/figures/features_diversity.png" class="center" width="400" height="250">
   </a>
 
   </p>
@@ -169,8 +167,8 @@ samples because it is the one closest to a realistic scenario for APT hunting.
 
 <br />
 <div align="center">
-  <a href="https://gitfront.io/r/user-8496580/rRczB6QJyHgL/EarlyCrowAPT/blob/experiments/unseen_malware_top_features_distribution.py">
-    <img src="https://gitfront.io/r/user-8496580/rRczB6QJyHgL/EarlyCrowAPT/raw/experiments/figures/top_features_distribution.png" class="center" width="900" height="125">
+  <a href="https://github.com/ICL-ml4csec/EarlyCrowAPT/blob/main/experiments/unseen_malware_top_features_distribution.py">
+    <img src="https://raw.githubusercontent.com/ICL-ml4csec/EarlyCrowAPT/main/experiments/figures/top_features_distribution.png" class="center" width="900" height="125">
   </a>
 
   </p>
