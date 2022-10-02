@@ -24,7 +24,19 @@ which is leveraged to build the contextual summary of a PCAP capture, representi
 relevant to APT TTPs. We evaluate the effectiveness of EarlyCrow on unseen APTs obtaining a headline macro average
 F1-score of 93.02% with FPR of 0.74%.
 
+If you decide to use our code or data, please cite our paper.
 
+```
+@inproceedings{alageel2022earlycrow,
+  title={EarlyCrow: Detecting APT Malware Command and Control 
+        Over HTTP(S) Using Contextual Summaries},
+  author={Alageel, Almuthanna and Maffeis, Sergio},
+  booktitle={International Conference on Information Security},
+  pages={},
+  year={2022},
+  organization={Springer}
+}
+```
 #### Installation
 
 * Clone the repo
