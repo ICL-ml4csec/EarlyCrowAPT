@@ -67,9 +67,7 @@ same workflow. A further step is required when the new PairFlow matches one of t
 The ContextualSummary updating process is responsible for updating the matched ContextualSummary to maintain the
 contextualization and reclassify again. 
 
-  ```sh
-  python EarlyCrow/dataflow.py
-  ```
+
 
 
 <br />
